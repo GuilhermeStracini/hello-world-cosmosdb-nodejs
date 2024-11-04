@@ -16,6 +16,8 @@ name = "secrets"
 name = "javascript"
 
   [analyzers.meta]
+  sonarcloud = true
+  sonarcloud_config = ".github/workflows/sonarcloud.yml"
   environment = ["nodejs"]
 
 [[analyzers]]
