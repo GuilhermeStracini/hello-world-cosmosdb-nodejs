@@ -41,21 +41,25 @@ Before getting started, ensure you have the following:
 ## Getting Started
 
 1. Clone this repository:
+
    ```bash
    git clone https://github.com/GuilhermeStracini/hello-world-cosmosdb-nodejs.git
    cd hello-world-cosmosdb-nodejs
    ```
 
 2. Install the dependencies:
+
    ```bash
    npm install
    ```
 
 3. Set up your CosmosDB credentials:
+
    - Copy `.env.example` to `.env`.
    - Add your **CosmosDB URI**, **Primary Key**, and **Database Name**.
 
 4. Run the application:
+
    ```bash
    npm start
    ```
