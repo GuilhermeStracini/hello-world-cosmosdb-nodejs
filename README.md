@@ -21,6 +21,7 @@ This repository is a starting point to learn how to integrate **Azure CosmosDB**
 ## Code Scanning
 
 This repository uses CodeQL for code scanning. See the analysis workflow [here](.github/workflows/codeql-analysis.yml).
+
 ## Features
 
 - **Azure CosmosDB**: Learn how to interact with CosmosDB for storing and retrieving data.
