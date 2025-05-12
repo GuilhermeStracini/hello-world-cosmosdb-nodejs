@@ -209,13 +209,13 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@datalust/winston-seq@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@datalust/winston-seq/-/winston-seq-2.0.0.tgz#5c32e9e6eacce0f5314975deebc511f99d7247c8"
-  integrity sha512-+2jseaj02d0uKWEfrYDVoAqJ89u33jd/KYItE/kbAsH21HlULm9ZN//S0C7+MUKsGStM0JnclByvvdyk5YmxjA==
+"@datalust/winston-seq@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@datalust/winston-seq/-/winston-seq-3.0.1.tgz#c783fef427c07f95e1bb6a074dd1059bbb50cee2"
+  integrity sha512-jWJd5PKcj/nM5f1T65KJgKaxPJRADWe+GEWtj1yEji1H0ub4RWhBEDLYzIFdwUy365lxtc5njsakenp4Evmv+g==
   dependencies:
-    seq-logging "^2.0.0"
-    winston-transport "^4.4.2"
+    seq-logging "^3.0.0"
+    winston-transport "^4.9.0"
 
 "@types/triple-beam@^1.3.2":
   version "1.3.5"
@@ -360,18 +360,6 @@ kuler@^2.0.0:
   resolved "https://registry.yarnpkg.com/kuler/-/kuler-2.0.0.tgz#e2c570a3800388fb44407e851531c1d670b061b3"
   integrity sha512-Xq9nH7KlWZmXAtodXDDRE7vs6DU1gTU8zYDHDiWLSip45Egwq3plLHzPn27NgvzL2r1LMPC1vdqh98sQxtqj4A==
 
-logform@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/logform/-/logform-2.6.1.tgz#71403a7d8cae04b2b734147963236205db9b3df0"
-  integrity sha512-CdaO738xRapbKIMVn2m4F6KTj4j7ooJ8POVnebSgKo3KBz5axNXRAL7ZdRjIV6NOr2Uf4vjtRkxrFETOioCqSA==
-  dependencies:
-    "@colors/colors" "1.6.0"
-    "@types/triple-beam" "^1.3.2"
-    fecha "^4.2.0"
-    ms "^2.1.1"
-    safe-stable-stringify "^2.3.1"
-    triple-beam "^1.3.0"
-
 logform@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/logform/-/logform-2.7.0.tgz#cfca97528ef290f2e125a08396805002b2d060d1"
@@ -437,10 +425,10 @@ semaphore@^1.1.0:
   resolved "https://registry.yarnpkg.com/semaphore/-/semaphore-1.1.0.tgz#aaad8b86b20fe8e9b32b16dc2ee682a8cd26a8aa"
   integrity sha512-O4OZEaNtkMd/K0i6js9SL+gqy0ZCBMgUvlSqHKi4IBdjhe7wB8pwztUk1BbZ1fmrvpwFrPbHzqd2w5pTcJH6LA==
 
-seq-logging@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/seq-logging/-/seq-logging-2.2.0.tgz#cebabcc1c3445092173bb9e3713a566a1105337c"
-  integrity sha512-2dzK9Ma6iK45lb1FoqokzFGR7v3HaF4mKuGtLeQ0991fQif7SatFxuLFw/bYNzq+Fe4y4hYfFy/02Qb61itfUw==
+seq-logging@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/seq-logging/-/seq-logging-3.0.0.tgz#efc9626a6912504d35293cc605b89260a7d67cc9"
+  integrity sha512-ys5QV0745vxBCWuZBPSkgoobuLoUMxTSz1g7ZclHqX1tXXKFLyRIIn8V89EPgDnfRiWfoSo4KSxy/E0MtOYYyw==
   dependencies:
     abort-controller "^3.0.0"
     node-fetch "^2.7.0"
@@ -506,15 +494,6 @@ whatwg-url@^5.0.0:
   dependencies:
     tr46 "~0.0.3"
     webidl-conversions "^3.0.0"
-
-winston-transport@^4.4.2:
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/winston-transport/-/winston-transport-4.7.1.tgz#52ff1bcfe452ad89991a0aaff9c3b18e7f392569"
-  integrity sha512-wQCXXVgfv/wUPOfb2x0ruxzwkcZfxcktz6JIMUaPLmcNhO4bZTwA/WtDWK74xV3F2dKu8YadrFv0qhwYjVEwhA==
-  dependencies:
-    logform "^2.6.1"
-    readable-stream "^3.6.2"
-    triple-beam "^1.3.0"
 
 winston-transport@^4.9.0:
   version "4.9.0"
