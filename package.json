@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@azure/cosmos": "^4.3.0",
-    "@datalust/winston-seq": "^2.0.0",
+    "@datalust/winston-seq": "^3.0.1",
     "dotenv": "^16.5.0",
     "winston": "^3.17.0"
   }
