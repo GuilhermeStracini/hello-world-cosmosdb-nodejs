@@ -15,6 +15,6 @@
     "@azure/cosmos": "^4.5.1",
     "@datalust/winston-seq": "^3.0.1",
     "dotenv": "^17.2.3",
-    "winston": "^3.17.0"
+    "winston": "^3.18.3"
   }
 }
