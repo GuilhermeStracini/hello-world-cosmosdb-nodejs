@@ -85,10 +85,10 @@
     "@azure/abort-controller" "^2.0.0"
     tslib "^2.6.2"
 
-"@azure/cosmos@^4.5.1":
-  version "4.5.1"
-  resolved "https://registry.yarnpkg.com/@azure/cosmos/-/cosmos-4.5.1.tgz#28b42eeb6a73a204e185ffc5293c3e7bff220257"
-  integrity sha512-fbuXnfsjkVKNKG/xtIM+rQSU9AiWB3Qah8L6cHFFUX7t0P6jXYWSwI3FO/NxadHtkISb/WiBCQ7PJsUveM0XMg==
+"@azure/cosmos@^4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@azure/cosmos/-/cosmos-4.6.0.tgz#abb74fbd97f90a2ce309b022af9673d6732c2867"
+  integrity sha512-BGQpF68AA8sYCdTSV04Qsh13yBndZDxWpKVIYGjJcxflazbQAyz/9kBvilwF3OtIyLin33B+RYPzD9YBUlT7HA==
   dependencies:
     "@azure/abort-controller" "^2.1.2"
     "@azure/core-auth" "^1.9.0"
