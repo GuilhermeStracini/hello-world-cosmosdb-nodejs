@@ -54,7 +54,6 @@ Before getting started, ensure you have the following:
    ```
 
 3. Set up your CosmosDB credentials:
-
    - Copy `.env.example` to `.env`.
    - Add your **CosmosDB URI**, **Primary Key**, and **Database Name**.
 
